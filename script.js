@@ -14,6 +14,7 @@ const getSum = () => {
   const tableData1 = document.createElement("td");
   const tableData2 = document.createElement("td");
   tableData1.textContent = "total";
+  tableData2.id = "ans";
   tableData2.textContent = total;
 
   newRow.appendChild(tableData1)
